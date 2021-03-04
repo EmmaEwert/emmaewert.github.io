@@ -1,7 +1,11 @@
-# JavaScript Wave Shaper
+# Emma's Endeavours
 
-Define a waveish shape with 32 values for each of the 32 samples in a 110 Hz wave.
+## Billboarded Planets (2020)
 
-<video width="320" height="240" controls>
-  <source type="video/webm" src="/110hz.webm">
+Combining raymarching with impostors, sampling fractal coherent noise across a signed distance field sphere.
+
+<video width="638" height="638" controls>
+  <source type="video/webm" src="/files/ridiculous-billboarding.webm">
 </video>
+
+Every single dot on the (regrettably) grey background is another fully detailed planet. No level of detail lowering happens, everything is handled in the shader. Each pixel only evaluates for the planet or planets it covers, so performance is directly tied to how many pixels are occupied by planets.

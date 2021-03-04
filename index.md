@@ -41,3 +41,15 @@ After creating a standard outline post-processing effect, I wanted to see how mu
 </video>
 
 The end result is a shader that makes every frame look somewhat like it was drawn with watercolours.
+
+
+
+## Sable Shader (2019, April)
+
+Inspired by the art style of the game [Sable](https://www.shed-works.co.uk/), I wanted to implement a decent deferred cel-shaded surface shader, and an outline post-process shader based on depth *and* colour.
+
+<video width="640" controls>
+	<source type="video/webm" src="files/sable-shader.webm">
+</video>
+
+Shadows, lights, and otherwise sharp changes in contrast - like pebbles on the ground and particle effects - all cause the edge detector to emit outlines, configurable in threshold, width, and colour.

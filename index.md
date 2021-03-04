@@ -1,6 +1,8 @@
 # Emma's Endeavours
 
-## Billboarded Planets (2020)
+A little look into a few of the projects I've toyed around with.
+
+## Billboarded Planets (2020, February)
 
 Combining raymarching with impostors, sampling fractal coherent noise across a signed distance field sphere.
 
@@ -11,3 +13,13 @@ Combining raymarching with impostors, sampling fractal coherent noise across a s
 Every single dot on the (regrettably) grey background is another fully detailed planet. No level of detail lowering happens, everything is handled in the shader.
 
 Each pixel only evaluates for the planet or planets it covers, so performance is directly tied to how many pixels are occupied by planets.
+
+
+
+## Sketch Shader (2019, July)
+
+Going for a hand-drawn look, I wrote a shader to apply a sketched texture to shadows and shading, blended based on light attenuation.
+
+<video width="640" controls>
+	<source type="video/webm" src="/files/sketch-shader.webm">
+</video>

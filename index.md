@@ -14,6 +14,16 @@ Every single dot on the (regrettably) grey background is another fully detailed 
 
 Each pixel only evaluates for the planet or planets it covers, so performance is directly tied to how many pixels are occupied by planets.
 
+Using coherent noise, I was able to make a billboard star, as well:
+
+<video width="640" controls>
+	<source type="video/webm" src="/files/billboard-planets-1.webm">
+</video>
+
+Since they're billboarded, every planet and star only requires two triangles or a quad to render.
+
+In this instance, only a single vertex position is sent to the GPU, where a geometry shader explodes it into a quad.
+
 A dither post-processing effect keeps the colour count at four, and dithers those to make up for other colours.
 
 

@@ -14,6 +14,8 @@ Every single dot on the (regrettably) grey background is another fully detailed 
 
 Each pixel only evaluates for the planet or planets it covers, so performance is directly tied to how many pixels are occupied by planets.
 
+A dither post-processing effect keeps the colour count at four, and dithers those to make up for other colours.
+
 
 
 ## Sketch Shader (2019, July)

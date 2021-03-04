@@ -2,12 +2,12 @@
 
 A little look into a few of the projects I've toyed around with.
 
-## Billboarded Planets (2020, February)
+## Billboard Planets (2020, February)
 
 Combining raymarching with impostors, sampling fractal coherent noise across a signed distance field sphere.
 
 <video width="640" controls>
-  <source type="video/webm" src="/files/billboarded-planets.webm">
+  <source type="video/webm" src="/files/billboard-planets.webm">
 </video>
 
 Every single dot on the (regrettably) grey background is another fully detailed planet. No level of detail lowering happens, everything is handled in the shader.

@@ -18,7 +18,7 @@ Each pixel only evaluates for the planet or planets it covers, so performance is
 
 ## Sketch Shader (2019, July)
 
-Going for a hand-drawn look, I wrote a shader to apply a sketched texture to shadows and shading, blended based on light attenuation.
+Going for a hand-drawn look, I wrote a shader to apply a screen-space sketched texture to shadows and shading, blended based on light attenuation.
 
 <video width="640" controls>
 	<source type="video/webm" src="/files/sketch-shader.webm">

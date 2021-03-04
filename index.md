@@ -18,7 +18,7 @@ Each pixel only evaluates for the planet or planets it covers, so performance is
 
 ## Sketch Shader (2019, July)
 
-Going for a hand-drawn look, I wrote a shader to apply a screen-space sketched texture to shadows and shading, blended based on light attenuation.
+Going for a sketchbook doodle look, I wrote a shader to apply a screen-space sketched texture to shadows and shading, blended based on light attenuation.
 
 <video width="640" controls>
 	<source type="video/webm" src="/files/sketch-shader.webm">
@@ -26,4 +26,16 @@ Going for a hand-drawn look, I wrote a shader to apply a screen-space sketched t
 
 Aesthetically, the shader works even better if the pattern is randomly rotated at 90-degree angles, 4-12 times per second.
 
-The outline is a post-processing effect taking into account colour changes and depth changes between pixels.
+The outline is an older post-processing effect of mine, taking into account colour changes and depth changes between pixels.
+
+
+
+## Art Shader (2019, May)
+
+After creating a standard outline post-processing effect, I wanted to see how much I could make it color outside the lines, so to speak.
+
+<video width="640" controls>
+	<source type="video/webm" src="/files/art-shader.webm">
+</video>
+
+The end result is a shader that makes every frame look somewhat like it was drawn with watercolours.
